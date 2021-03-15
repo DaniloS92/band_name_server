@@ -12,7 +12,7 @@ bands.addBand(new Band('Metallica'));
 // Mensajes de sockets
 io.on('connection', client => {
 
-    console.log(`Cliente contectado: ${client.id}`);
+    // console.log(`Cliente contectado: ${client.id}`);
 
     client.emit('active-bands', bands.getBands());
 
