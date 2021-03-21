@@ -60,7 +60,7 @@ const loginUsuario = async (req, res = response) => {
 
         res.json({
             ok: true,
-            usuarioDB,
+            usuario: usuarioDB,
             token
         })
         
